@@ -192,9 +192,15 @@ a.projet {
 
 /*Fin header*/
 
+/*Main*/
 
+#card {
+    background-color: #00FFE0;
+    padding: 10px;
+}
 
-
-.Test {
-    color: #FFF;
+.cardgrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
 }
