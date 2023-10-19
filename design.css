@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     margin: 0;
 }
 
@@ -64,15 +64,16 @@ a.projet {
     backdrop-filter: blur(100px);
     display: flex;
     align-items: center;
-    transition: all 0.5s;
+    transition: all 0.4s;
 
 }
-
 
 .bg-profil:hover {
     border: 1px solid rgb(196, 196, 196);
-    transform: scale(1.05);
+    transform: scale(1.07);
+    background: #000000;
 }
+
 
 
 .pp {
@@ -80,7 +81,7 @@ a.projet {
     height: 220px;
     flex-shrink: 0;
     border-radius: 999px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .pp:active {
@@ -105,9 +106,9 @@ a.projet {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     width: 70%;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
 }
 
 .reseautelecom {
@@ -144,8 +145,12 @@ a.projet {
     }
 }
 
+/*Réseau sociaux*/
+
+
 .rsociaux {
-    margin-left: 80%;
+    margin-top: 10%;
+    margin-left: 100%;
     display: flex;
 }
 
@@ -194,13 +199,142 @@ a.projet {
 
 /*Main*/
 
-#card {
-    background-color: #00FFE0;
-    padding: 10px;
+.apropos {
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 80px;
 }
 
-.cardgrid {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+main {
+    margin-inline: 200px;
 }
+
+/*grid de card*/
+
+.cardgrid {
+    margin-top: 80px;
+    display: grid;
+    grid-row-gap: 50px;
+    grid-column-gap: 40px;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    grid-template-rows: repeat(5, 300px);
+    width: calc(100% - 160px);
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*cards*/
+
+
+/*card-a ------------------------------------------*/
+
+.card-a {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 40px;
+    background: linear-gradient(192deg, #0038FF 5.6%, #17005A 97.64%);
+    padding: 20px;
+    padding-left: 30px;
+    transition: all 0.2s;
+}
+
+.descritpion {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.descritpion-p {
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.card-a:hover {
+    transform: scale(1.03);
+}
+
+/*card-b ------------------------------------------*/
+
+
+.card-b {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #00A067 7.37%, #00F0FF 118.4%);
+    padding: 20px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.age {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.age-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.age-n {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.circle {
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.circle:hover {
+    transform: rotate(360deg);
+}
+
+.card-b:hover {
+    transform: scale(1.03);
+}
+
+/*card-c ------------------------------------------*/
+
+
+.card-c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 40px;
+    background: linear-gradient(164deg, #4200FF 10.91%, #FF007A 156.27%);
+    }
+
+/*card-d ------------------------------------------*/
+
+
+.card-d {
+    grid-column-start: 5;
+    grid-column-end: 2;
+    border-radius: 40px;
+    background: linear-gradient(192deg, #6C57A7 5.6%, #287373 97.64%);
+}
+
+/*card-e ------------------------------------------*/
+
+
+.card-e {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 40px;
+    background: linear-gradient(211deg, #F00 -40.3%, #2461FF 128.59%);
+}
+
