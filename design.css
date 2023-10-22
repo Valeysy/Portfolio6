@@ -203,11 +203,25 @@ a.projet {
     color: #FFF;
     font-size: 38px;
     font-weight: 500;
-    margin-top: 80px;
+
 }
 
 main {
-    margin-inline: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+
+.contenu {
+    margin-top: 80px;
+    display: block;
+}
+
+.margincard {
+    display: flex;
+    justify-content: center;
+
 }
 
 /*grid de card*/
@@ -215,30 +229,23 @@ main {
 .cardgrid {
     margin-top: 80px;
     display: grid;
-    grid-row-gap: 50px;
-    grid-column-gap: 40px;
-    grid-template-columns: repeat(4, minmax(300px, 1fr));
-    grid-template-rows: repeat(5, 300px);
-    width: calc(100% - 160px);
-    grid-auto-flow: row;
-    grid-auto-rows: auto;
-    margin-left: auto;
-    margin-right: auto;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
 }
 
 /*cards*/
-
 
 /*card-a ------------------------------------------*/
 
 .card-a {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     border-radius: 40px;
-    background: linear-gradient(192deg, #0038FF 5.6%, #17005A 97.64%);
-    padding: 20px;
-    padding-left: 30px;
-    transition: all 0.2s;
+    background: linear-gradient(192deg, rgb(0, 56, 255) 5.6%, rgb(23, 0, 90) 97.64%);
+    padding: 4%;
+    transition: all 0.4s ease 0s;    
 }
 
 .descritpion {
@@ -251,24 +258,26 @@ main {
 .descritpion-p {
     color: white;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .card-a:hover {
-    transform: scale(1.03);
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px rgba(13, 37, 255, 0.25);
+    backdrop-filter: blur(100px);
 }
 
 /*card-b ------------------------------------------*/
 
 
 .card-b {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    border-radius: 40px;
-    background: linear-gradient(170deg, #00A067 7.37%, #00F0FF 118.4%);
-    padding: 20px;
+    grid-column-start: 3;
+    grid-column-end: 4;
     position: relative;
-    transition: all 0.2s;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #00a067 7.37%, rgb(0, 240, 255) 118.4%);
+    padding: 6%;
+    transition: all 0.4s ease 0s;
 }
 
 .age {
@@ -300,12 +309,14 @@ main {
     transition: all 0.5s;
 }
 
-.circle:hover {
-    transform: rotate(360deg);
+.card-b:hover .circle {
+    transform: rotate(360deg) scale(0.75);
 }
 
 .card-b:hover {
-    transform: scale(1.03);
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px #00c2a82d;
+    backdrop-filter: blur(100px);
 }
 
 /*card-c ------------------------------------------*/
@@ -322,8 +333,8 @@ main {
 
 
 .card-d {
-    grid-column-start: 5;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
     border-radius: 40px;
     background: linear-gradient(192deg, #6C57A7 5.6%, #287373 97.64%);
 }
@@ -333,8 +344,9 @@ main {
 
 .card-e {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 4;
     border-radius: 40px;
     background: linear-gradient(211deg, #F00 -40.3%, #2461FF 128.59%);
 }
+
 
