@@ -1,0 +1,278 @@
+/*Main*/
+
+.apropos {
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+
+main {
+    overflow: hidden;
+}
+
+.contenu {
+    margin-top: 80px;
+}
+
+.margincard {
+    display: flex;
+    justify-content: center;
+}
+
+/*grid de card*/
+
+.cardgrid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
+}
+
+/*cards*/
+
+/*card-a ------------------------------------------*/
+
+.card-a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 40px;
+    background: linear-gradient(66deg, #06F -89.86%, #AD00FF 112.72%);    
+    padding: 4%;
+    transition: all 0.3s;    
+}
+
+.descritpion {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.descritpion-p {
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: all 0.4s;
+}
+
+.card-a:hover {
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px rgba(13, 37, 255, 0.25);
+    backdrop-filter: blur(100px);
+}
+
+.card-a:hover .descritpion-p {
+    transform: scale(0.98);
+}
+
+/*card-b ------------------------------------------*/
+
+
+.card-b {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    position: relative;
+    border-radius: 40px;
+    background: linear-gradient(157deg, #9fe48e -3.91%, #00e5ff 100.34%);
+    padding: 7%;
+    transition: all 0.3s;
+}
+
+.age {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.age-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.age-n {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.circle {
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.card-b:hover .circle {
+    transform: rotate(360deg) scale(0.75);
+}
+
+.card-b:hover {
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px #00c2a82d;
+    backdrop-filter: blur(100px);
+}
+
+/*card-c ------------------------------------------*/
+
+
+.card-c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-radius: 40px;
+    background: linear-gradient(314deg, #ffd970 -7.02%, #FF007A 135.24%);    
+    padding: 7%;
+    transition: all 0.3s;
+}
+
+.localisation {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 23%;
+}
+
+.ville {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+
+.card-c:hover {
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px #c200c22d;
+    backdrop-filter: blur(100px);
+}
+
+.card-c:hover .ville {
+    transform: scale(0.9);
+}
+
+/*card-d ------------------------------------------*/
+
+
+.card-d {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 40px;
+    background: linear-gradient(182deg, #DB00FF -53.29%, #FF5F2D 143.88%);    
+    padding: 4%;
+    transition: all 0.3s;
+}
+
+.centre {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8%;
+}
+
+.centredinteret {
+    display: flex;
+    width: 500px;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.interet {
+    margin: 15px;
+    margin-inline: 30px;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+.card-d:hover .interet {
+    transform: scale(0.95);
+}
+
+.card-d:hover {
+    transform: scale(1.035);
+    box-shadow: 0px 4px 200px 30px #3400c22d;
+    backdrop-filter: blur(100px);
+}
+
+/*card-e ------------------------------------------*/
+
+
+.card-e {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 40px;
+    padding: 3%;
+    position: relative;
+    background: linear-gradient(265deg, #00D1FF 7.87%, #1C4EFF 96.22%);    
+}
+
+.formation-all {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.formation {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+.bloc-forma {
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+}
+
+.card-forma {
+    padding: 20px;
+    width: 170px;
+    height: 100px;
+    background: black;
+    border-radius: 30px;
+    margin-inline: 46px;
+    transition: all 0.2s;
+}
+
+.forma-b {
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.forma-b, .forma-c {
+    color: white;
+}
+
+.line {
+    position: absolute;
+    bottom: 65px;
+    width: 100vw;
+}
+
+.card-forma:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 200px 30px #3400c22d;
+    backdrop-filter: blur(100px);
+}
+
+/* fin card */
+
+.def {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 22%;
+
+}
+

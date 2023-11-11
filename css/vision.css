@@ -1,0 +1,32 @@
+.vision {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.plus-tard {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5%;
+} 
+
+.honnete {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    background: white;
+    border-radius: 30px;
+    padding: 5%;
+    padding-inline: 17%;
+}
+
+.blabla {
+    color: white;
+    width: 50%;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
