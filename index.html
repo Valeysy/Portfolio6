@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/souhait.css">
     <link rel="stylesheet" href="css/metier.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="images/favicon.svg">
 </head>
 
@@ -22,7 +23,7 @@
         <video class="video-bg" autoplay="autoplay" muted="" loop="infinte" src="images/data.mp4"></video>
         </div>
         <section class="marginbg">
-            <nav class="lien-a">
+            <nav data-aos="fade-down-left" class="lien-a">
                 <a class="presentation" href="#">Présentation</a>
                 <a class="projet" href="#">Projet</a> 
             </nav>
@@ -30,11 +31,14 @@
             <section class="cardprofil">
 
                 <div class="bg-profil">
-                    <img class="pp" src="images/pp.jpg" alt="Photo de profil">
-                <div class="infoprofil">
+                    <img data-aos="zoom-in" class="pp" src="images/pp.jpg" alt="Photo de profil">
+                <div data-aos="zoom-in" class="infoprofil">
                     <h1 class="name">Vladimir Nechaev</h1>
                     <h2 class="bio">Un étudiant en <strong class="reseautelecom">Réseau Télécom</strong> basé en France</v>
                     <section class="rsociaux">
+                        <a href="mailto:vladimir.nechaev.pro@gmail.com" class="mail" target="_blank">
+                            <img src="images/mail.svg">
+                        </a>
                         <a href="https://fr.linkedin.com/in/vladimir-nechaev-73aa3a1a1" class="linkedin" target="_blank">
                             <img src="images/linkedin.svg">
                         </a>
@@ -44,6 +48,7 @@
                         <a href="https://www.instagram.com/vladimir_nchv/" class="instagram" target="_blank">
                             <img src="images/instagram.svg">
                         </a>
+
                     </section>  
                 </div>
             </section>
@@ -58,20 +63,20 @@
 
     <main>
         <div class="contenu">
-            <h3 class="apropos">À propos de moi</h3> 
+            <h3 data-aos="zoom-out" class="apropos">À propos de moi</h3> 
         </div>
 
         <div class="margincard">
             <div class="cardgrid">
                 
-                <div id="card" class="card-a">
+                <div data-aos="fade-right" id="card" class="card-a">
                     <h4 class="descritpion">Description</h4>
                     <p class="descritpion-p">Vietnamien russe français né à Moscou en Russie et habitant en France</p>
                     <br>
                     <p class="descritpion-p">Je suis passionné par le design, l’entrepreneuriat, le voyage, la cuisine, les arts, le cinéma, la suisse, bref un peu près tout et n’importe quoi</p>
                 </div>
 
-                <div id="card" class="card-b">
+                <div data-aos="fade-left" id="card" class="card-b">
                     <h4 class="age">Age</h4>
 
                     <div class="age-circle">
@@ -80,7 +85,7 @@
                     </div>
                 </div>
 
-                <div  id="card" class="card-c">
+                <div data-aos="fade-right" id="card" class="card-c">
                     <h4 class="localisation">Localisation</h4>
                     <a href="https://maps.app.goo.gl/Cd7Qs2GbvizMtQzr9" target="_blank">
                         <p class="ville">Colmar 
@@ -92,7 +97,7 @@
                     </a>
                 </div>
 
-                <div id="card" class="card-d">
+                <div data-aos="fade-left" id="card" class="card-d">
                     <h4 class="centre">Centre d’intérêt</h4>
                     <div class="centredinteret">
                         <p class="interet">🌉 Design</p>
@@ -103,7 +108,7 @@
                     </div>
                 </div>
 
-                <div id="card" class="card-e">
+                <div data-aos="fade-up" id="card" class="card-e">
                     <h4 class="formation">Formation</h4>
 
                     <section class="formation-all">
@@ -123,14 +128,22 @@
                             </div>
                         </section>
 
-                        <img src="images/line.png" class="line"> 
+                        <img data-aos="fade-right" src="images/line.png" class="line"> 
+
+                        <div data-aos="fade-down" class="reo-line">
+                            <div class="line-v">
+                                <img src="images/line-v.png">
+                            </div>
+                                
+                            <p>Réorientation</p>
+                        </div>
                     
                     </section>
                 </div>
             </div>
         </div>
 
-        <div class="def">
+        <div data-aos="fade-down" class="def">
             <li> BUT : Bachlor Universitaire Technologique</li>
             <li> TC : Technique de commercialisation</li>
             <li> RT : Réseau et télécom</li>
@@ -138,27 +151,27 @@
 
         <div class="reorientation">
             <div class="reo-title">
-                <img src="images/round.svg">
-                <img src="images/round.svg">
-                <h2>Réorientation</h2>
-                <img src="images/round.svg">
-                <img src="images/round.svg">
+                <img data-aos="fade-right" data-aos-delay="200" src="images/round.svg">
+                <img data-aos="fade-right" data-aos-delay="100" src="images/round.svg">
+                <h2 data-aos="zoom-in" >Réorientation</h2>
+                <img data-aos="fade-left" data-aos-delay="100" src="images/round.svg">
+                <img data-aos="fade-left" data-aos-delay="200" src="images/round.svg">
             </div>
 
             <p class="quoi">Quoi ?</p>
-            <p class="quoi-p">Je me suis réorienté suite à mon BUT 1 de TC.</p>
+            <p data-aos="zoom-out" class="quoi-p">Je me suis réorienté suite à mon BUT 1 de TC.</p>
             <p class="pourquoi">Pourquoi ?</p>
-            <p class="pourquoi-p">Je cherchais à acquérir des compétences techniques plus avancées, celles que je ne pourrais pas facilement maîtriser par moi-même, tout en élargissant mes perspectives d'emploi.</p>
+            <p data-aos="zoom-out" class="pourquoi-p">Je cherchais à acquérir des compétences techniques plus avancées, celles que je ne pourrais pas facilement maîtriser par moi-même, tout en élargissant mes perspectives d'emploi.</p>
             <p class="pour-quoi">Pour quoi ?</p>
-            <p class="pour-quoi-p">Pour un BUT RT, que je considère plus adapté à mes besoins, il me permet d'acquérir des compétences en code et en réseaux informatiques. L’aspect technique, associée à mes compétences en commerce, me rendra polyvalent et complet.</p>
+            <p data-aos="zoom-out" class="pour-quoi-p">Pour un BUT RT, que je considère plus adapté à mes besoins, il me permet d'acquérir des compétences en code et en réseaux informatiques. L’aspect technique, associée à mes compétences en commerce, me rendra polyvalent et complet.</p>
 
         </div>
 
         <div class="citation"> 
-            <p class="cita-a"> Mais </p>
-            <p class="cita-b"> ce n’est pas  </p>
-            <p class="cita-c"> la finalité.......... </p>
-            <p class="cita-main"> ...Parce que... </p>
+            <p data-aos="fade-up" data-aos-delay="400" class="cita-a"> Mais </p>
+            <p data-aos="fade-up" data-aos-delay="500" class="cita-b"> ce n’est pas  </p>
+            <p data-aos="fade-up" data-aos-delay="600" class="cita-c"> la finalité.......... </p>
+            <p data-aos="fade-up" data-aos-delay="700" class="cita-main"> ...Parce que... </p>
 
             <section class="cita">
                 <img class="line-b" src="images/line2.png">
@@ -167,32 +180,32 @@
                 <p class="citation-author">- Sûrement quelqu’un</p>
             </section>
 
-            <img src="images/arrow.png">
+            <img data-aos="fade-down" data-aos-duration="500" src="images/arrow.png">
         </div>
 
         <div class=vision>
             <p class="plus-tard">Comment je me vois 10 ans plus tard ?</p>
-            <p class="honnete">Honnêtement j’en sais rien</p>
-            <p class="blabla">L'avenir étant trop flou et incertain, je n'ai pas suffisamment de recul nécessaire pour me projeter à plus de dix ans. Le fait est que nos sociétés évoluent, que ce soit pour le meilleur ou pour le pire. Les bouleversements climatiques, les conflits armés, l'intelligence artificielle, la migration massive de la population vers le nord, ainsi que la propagation généralisée des pandémies en raison de l'adaptation bactérienne, brouillent mon jugement.</p>
-            <p class="mais">Mais...</p>
+            <p data-aos="fade-up" class="honnete">Honnêtement j’en sais rien</p>
+            <p data-aos="fade-down" class="blabla">L'avenir étant trop flou et incertain, je n'ai pas suffisamment de recul nécessaire pour me projeter à plus de dix ans. Le fait est que nos sociétés évoluent, que ce soit pour le meilleur ou pour le pire. Les bouleversements climatiques, les conflits armés, l'intelligence artificielle, la migration massive de la population vers le nord, ainsi que la propagation généralisée des pandémies en raison de l'adaptation bactérienne, brouillent mon jugement.</p>
+            <p data-aos="zoom-out" class="mais">Mais...</p>
         </div>
 
         <div class="souhait">
-            <p class="souhait-p">Je souhaiterais</p>
+            <p data-aos="fade-right" class="souhait-p">Je souhaiterais</p>
             
             <div class="margincard-terme">
                 <section class="terme-card">
-                    <div class="court-terme">
+                    <div data-aos="fade-right" data-aos-delay="300" class="court-terme">
                         <p class="terme-title">Court terme</p>
                         <p class="terme-p">Réussir mon BUT et peut-être partir à l’étranger si je peux. <br><br> Faire des projets à coté pour découvrir et créer des petits business.</p>
                         <p class="sky">Sky</p>
                     </div>
-                    <div class="moyen-terme">
+                    <div data-aos="fade-right" data-aos-delay="500" class="moyen-terme">
                         <p class="terme-title-a">Moyen terme</p>
                         <p class="terme-p-a">Continuer mes études et aller en école d’ingénieur si je peux ou en Master. <br><br> Créer mon entreprise, application ou logiciel. Diversifier mes activités.</p>
                         <p class="isthe">is the</p>
                     </div>
-                    <div class="long-terme">
+                    <div data-aos="fade-right" data-aos-delay="700" class="long-terme">
                         <p class="terme-title-a">Long terme</p>
                         <p class="terme-p-a">Trouver un travail en Suisse, ou alors un poste qualifié en France. Sinon travailler en télétravail depuis l’étranger. <br><br> Et enfin, être comblé de ma vie.</p>
                         <p class="limite">limite</p>
@@ -202,31 +215,31 @@
         </div>
 
         <div class="metier">
-            <p class="metier-title">Les métiers que je souhaiterais faire</p>
+            <p data-aos="fade-right" class="metier-title">Les métiers que je souhaiterais faire</p>
             
             <div class="margincard-metier">
                 <section class="metier-card">
-                    <div class="metier-a">
+                    <div data-aos="zoom-out" class="metier-a">
                         <p class="metier-card-title">Ingénieur d’affaire</p>
                         <p class="metier-card-p">Métier alliant compétence technique et commercial. <br><br> C’est le poste que j’aimerais atteindre en combinant mes connaissance technique et mes expérience en commerce.</p>
                     </div>
-                    <div class="metier-b">
+                    <div data-aos="zoom-out" class="metier-b">
                         <p class="metier-card-title">Développeur fullstack</p>
                         <p class="metier-card-p">J’aimerais avoir assez de compétence en codage afin de créer des sites, des logiciels et des réseaux. <br><br> Ce métier est idéal et assez recherché sur le monde de l’emploi</p>
                     </div>
-                    <div class="metier-c">
+                    <div data-aos="zoom-out" class="metier-c">
                         <p class="metier-card-title">Admin réseau</p>
                         <p class="metier-card-p">Métier qui peut être bien pour commencer dans la vie active. <br><br> Je souhaiterais aller en Suisse ou à l’étranger pour l’exercer.</p>
                     </div>
-                    <div class="metier-d">
+                    <div data-aos="zoom-out" class="metier-d">
                         <p class="metier-card-title">Entrepreneur</p>
                         <p class="metier-card-p">Selon les résultats de mes projets. Si je peux faire fructifier une activité.<br><br> Sinon ouvrir mon entreprise de “numérisation” d’entreprise.</p>
                     </div>
-                    <div class="metier-e">
+                    <div data-aos="zoom-out" class="metier-e">
                         <p class="metier-card-title">Designer graphique</p>
                         <p class="metier-card-p">Si c’est pas remplacé par l’IA, je peux le faire en Freelance.<br><br>C’est mon métier passion.</p>
                     </div>
-                    <div class="metier-f">
+                    <div data-aos="zoom-out" class="metier-f">
                         <p class="metier-card-title">Un métier qui n’existe pas encore</p>
                         <p class="metier-card-p">l’IA va remplacer 80% des emplois. Je ne sais pas si tout ceux cité précédemment ne vont pas juste disparaître.<br><br>Je m’adapterais.</p>
                     </div>
@@ -264,6 +277,10 @@
             </section>
         </footer>
     </main>
+
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
