@@ -18,8 +18,8 @@
 
 .metier-card {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(2, 360px);
     grid-column-gap: 70px;
     grid-row-gap: 100px;
 }  
