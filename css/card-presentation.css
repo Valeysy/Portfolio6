@@ -76,7 +76,7 @@ main {
     grid-column-end: 4;
     position: relative;
     border-radius: 40px;
-    background: linear-gradient(157deg, #9fe48e -3.91%, #00e5ff 100.34%);
+    background: linear-gradient(152deg, #11CDCC -8.23%, #83FF44 181.57%);    
     padding: 7%;
     transition: all 0.3s;
 }

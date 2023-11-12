@@ -11,6 +11,7 @@
     margin-bottom: 5%;
 } 
 
+
 .honnete {
     color: black;
     font-size: 24px;
@@ -29,4 +30,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.mais {
+    color: white;
+    font-size: 24px;
+    margin-top: 80px;
 }

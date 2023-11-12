@@ -1,0 +1,106 @@
+.souhait {
+    margin-top: 100px;
+}
+
+.souhait-p {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.margincard-terme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.terme-card {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-column-gap: 70px;
+}  
+
+.court-terme {
+    background: rgb(197, 197, 255);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    border-radius: 40px;
+    padding: 8%;
+    margin-top: 20%;
+    background: linear-gradient(285deg, #6396E3 -15.48%, #FFF 129.77%);
+}
+
+.moyen-terme {
+    background: rgb(197, 197, 255);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    border-radius: 40px;
+    padding: 8%;
+    margin-top: 10%;
+    background: linear-gradient(243deg, #093FFF -21.39%, #A3C1EF 159.21%);
+}
+
+.long-terme {
+    background: rgb(197, 197, 255);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    border-radius: 40px;
+    padding: 8%;
+    background: linear-gradient(247deg, #000209 9.88%, #3968FA 114.6%);
+}
+
+.terme-title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+} 
+
+.terme-p {
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+.terme-title-a {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+} 
+
+.terme-p-a {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+} 
+
+.sky {
+    margin-top: 37%;
+    margin-left: 70%;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.isthe {
+    margin-top: 27%;
+    margin-left: 60%;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.limite {
+    margin-top: 35%;
+    margin-left: 60%;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 48px;
+    font-weight: 600;
+}

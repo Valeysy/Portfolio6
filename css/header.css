@@ -11,7 +11,6 @@ h1, h2, h3, h4, h5, p {
 
 body {
     background-color: #131415;
-    height: 5000px;
 }
 
 .video {
@@ -105,8 +104,6 @@ a.projet {
     border: 1px solid rgb(196, 196, 196);
     transform: scale(1.07);
 }
-
-
 
 .pp {
     width: 220px;

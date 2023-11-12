@@ -1,0 +1,89 @@
+.metier {
+    margin-top: 100px;
+}
+
+.metier-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.margincard-metier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metier-card {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 300px);
+    grid-column-gap: 70px;
+    grid-row-gap: 70px;
+}  
+
+.metier-card-title {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.metier-card-p {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.metier-a {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #0B0036 118.4%);    
+    padding: 5%;
+}
+
+.metier-b {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #2F0036 118.4%);    
+    padding: 5%;
+}
+
+.metier-c {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #083600 118.4%);    
+    padding: 5%;
+}
+
+.metier-d {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #421C1C 118.4%);    
+    padding: 5%;
+}
+
+.metier-e {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #003633 118.4%);    
+    padding: 5%;
+}
+
+.metier-f {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    background: linear-gradient(170deg, #000 7.37%, #2F3600 118.4%);    
+    padding: 5%;
+}
