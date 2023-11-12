@@ -1,0 +1,32 @@
+footer {
+    margin-top: 13%;
+    color: white;
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 100%;
+}
+
+.footer-main {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vladimir {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-rs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-rsociaux {
+    margin-bottom: 10px;
+} 
+
+.mail-vlad {
+    color: white;
+}
