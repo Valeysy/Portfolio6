@@ -30,7 +30,6 @@
 }
 
 .cita-main {
-    width: 580px;
     margin-top: 30px;
     margin-bottom: 150px;
     font-size: 100px;
@@ -39,6 +38,7 @@
 }
 
 .cita-main::after {
+    width: 110%;
     content: "...Parce que...";
     position: absolute;
     top: 0;
