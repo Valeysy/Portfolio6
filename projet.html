@@ -1,187 +1,223 @@
-<!-- MIT License
-
-Copyright (c) 2023 Vladimir Nechaev
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projet</title>
-    <link rel="stylesheet" href="css-projet/header.css">
-    <link rel="stylesheet" href="css-projet/projets.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.svg">
+    <link rel="stylesheet" href="css-projet/header.css" />
+    <link rel="stylesheet" href="css-projet/projets.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css-projet/media.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.svg" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-<body>
-    <header class="bg">    
-        <div class="video">
-            <video class="video-bg" autoplay="autoplay" muted="" loop="infinte" src="images/feu.mp4"></video>
-        </div>
-        <section class="marginbg">
-            <nav class="lien-a">
-                <a class="lang" href="#">Français</a>
-                <a href="index.html" class="presentation" >Présentation</a>
-                <a class="projet" >Projet</a> 
-            </nav>
-            
-            <section class="cardprofil">
+  </head>
+  <body>
+    <header class="bg">
+      <div class="video">
+        <video
+          class="video-bg"
+          autoplay="autoplay"
+          muted=""
+          loop="infinte"
+          src="images/feu.mp4"
+        ></video>
+      </div>
+      <section class="marginbg">
+        <nav class="lien-a">
+          <a class="lang" href="#">Français</a>
+          <a href="index.html" class="presentation">Présentation</a>
+          <a class="projet">Projet</a>
+        </nav>
 
-                <div class="bg-profil">
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="pp" src="images/pp.jpg" alt="Photo de profil"></a>
-                <div  class="infoprofil">
-                    <h1 class="name">Vladimir Nechaev</h1>
-                    <h2 class="bio">Un étudiant en <strong class="reseautelecom">Réseau Télécom</strong> basé en France</v>
-                    <section class="rsociaux">
-                        <a href="mailto:vladimir.nechaev.pro@gmail.com" class="mail" target="_blank">
-                            <img src="images/mail.svg">
-                        </a>
-                        <a href="https://fr.linkedin.com/in/vladimir-nechaev-73aa3a1a1" class="linkedin" target="_blank">
-                            <img src="images/linkedin.svg">
-                        </a>
-                        <a href="https://twitter.com/vladimir_nch" class="twitter" target="_blank">
-                            <img src="images/twitter.svg">
-                        </a>
-                        <a href="https://www.instagram.com/vladimir_nchv/" class="instagram" target="_blank">
-                            <img src="images/instagram.svg">
-                        </a>
+        <section class="cardprofil">
+          <div class="bg-profil">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              ><img class="pp" src="images/pp.jpg" alt="Photo de profil"
+            /></a>
+            <div class="infoprofil">
+              <h1 class="name">Vladimir Nechaev</h1>
+              <h2 class="bio">
+                Un étudiant en
+                <strong class="reseautelecom">Réseau Télécom</strong> basé en
+                France
+              </h2>
+              <section class="rsociaux">
+                <a
+                  href="mailto:vladimir.nechaev.pro@gmail.com"
+                  class="mail"
+                  target="_blank"
+                >
+                  <img src="images/mail.svg" />
+                </a>
+                <a
+                  href="https://fr.linkedin.com/in/vladimir-nechaev-73aa3a1a1"
+                  class="linkedin"
+                  target="_blank"
+                >
+                  <img src="images/linkedin.svg" />
+                </a>
+                <a
+                  href="https://twitter.com/vladimir_nch"
+                  class="twitter"
+                  target="_blank"
+                >
+                  <img src="images/twitter.svg" />
+                </a>
+                <a
+                  href="https://www.instagram.com/vladimir_nchv/"
+                  class="instagram"
+                  target="_blank"
+                >
+                  <img src="images/instagram.svg" />
+                </a>
+              </section>
+            </div>
+          </div>
+        </section>
 
-                    </section>  
-                </div>
-                </div>
-            </section>
-        
-            <section id="section" class="scroll">
-                <a href="#start"><span></span> Scroll Down</a>
-            </section>
-            
-        </section> 
-
+        <section id="section" class="scroll">
+          <a href="#start"><span></span> Scroll Down</a>
+        </section>
+      </section>
     </header>
 
     <main>
-        <div class="contenu">
-            <h3 data-aos="zoom-out" id="start" class="projet-title">Projet</h3> 
+      <div class="contenu">
+        <h3 data-aos="zoom-out" id="start" class="projet-title">Projet</h3>
+      </div>
+
+      <div class="text-projet">
+        <p data-aos="zoom-out" class="jevoudrais">
+          Je voudrais vous présenter une de mes
+        </p>
+
+        <div class="text-projet-b">
+          <p data-aos="zoom-out" data-aos-delay="100" class="text-a">
+            passions
+          </p>
+          <p data-aos="zoom-out" data-aos-delay="200" class="text-a">hobby</p>
+          <p data-aos="zoom-out" data-aos-delay="300" class="text-a">
+            activité extrascolaire
+          </p>
+          <p data-aos="zoom-out" data-aos-delay="400" class="text-a">
+            truc que je kiffe
+          </p>
         </div>
+      </div>
 
-        <div class="text-projet">
-            <p data-aos="zoom-out" class="jevoudrais">Je voudrais vous présenter une de mes</p>
+      <div class="ledesign">
+        <p data-aos="fade-up" class="design">Le design</p>
+      </div>
 
-            <div class="text-projet-b">
-                <p data-aos="zoom-out" data-aos-delay="100" class="text-a">passions</p>
-                <p data-aos="zoom-out" data-aos-delay="200" class="text-a">hobby</p>
-                <p data-aos="zoom-out" data-aos-delay="300" class="text-a">activité extrascolaire</p>
-                <p data-aos="zoom-out" data-aos-delay="400" class="text-a">truc que je kiffe</p>
-            </div>
+      <div class="definition">
+        <p data-aos="zoom-out" class="cquoi">Mais c’est quoi ?</p>
+        <p data-aos="zoom-out" class="larouse">D’après le Larousse :</p>
+
+        <div data-aos="zoom-in" class="def">
+          <p>Design</p>
+          <p>nom masculin</p>
+          <br />
+          <p>
+            Discipline visant à une harmonisation de l'environnement humain,
+            depuis la conception des objets usuels jusqu'à l'urbanisme.
+          </p>
+          <br />
+          <p>Synonyme :</p>
+          <li>stylique</li>
         </div>
+      </div>
 
-        <div class="ledesign">
-            <p  data-aos="fade-up" class="design">Le design</p>
+      <div data-aos="fade-right" class="moyen">
+        <p class="moyen-a">
+          Mais pour moi, c’est un moyen d’exprimer toute la créativité que je
+          possède.
+        </p>
+      </div>
+
+      <div class="circles">
+        <div data-aos="zoom-out" data-aos-delay="100" class="circle">
+          <p class="cricle-title">J’ai commencé il y a</p>
+          <p class="circle-p">6 mois</p>
         </div>
-
-        <div class="definition">
-            <p data-aos="zoom-out" class="cquoi">Mais c’est quoi ?</p>
-            <p data-aos="zoom-out" class="larouse">D’après le Larousse :</p>
-
-            <div data-aos="zoom-in" class="def">
-                <p>Design</p>
-                <p>nom masculin</p>
-                <br>
-                <p>Discipline visant à une harmonisation de l'environnement humain, depuis la conception des objets usuels jusqu'à l'urbanisme.</p>
-                <br>
-                <p>Synonyme :</p>
-                <li>stylique</li>
-            </div>
+        <div data-aos="zoom-out" data-aos-delay="200" class="circle">
+          <p class="cricle-title">J’ai fais plus de</p>
+          <p class="circle-pa">50 design</p>
         </div>
-
-        <div data-aos="fade-right" class="moyen">
-            <p class="moyen-a">Mais pour moi, c’est un moyen d’exprimer toute la créativité que je possède.</p>
+        <div data-aos="zoom-out" data-aos-delay="300" class="circle">
+          <p class="cricle-title">Je kiffe ça à</p>
+          <p class="circle-p">100 %</p>
         </div>
+      </div>
 
-        <div class="circles">
-            <div data-aos="zoom-out" data-aos-delay="100" class="circle">
-                <p class="cricle-title">J’ai commencé il y a</p>
-                <p class="circle-p">6 mois</p>
-            </div>
-            <div data-aos="zoom-out" data-aos-delay="200" class="circle">
-                <p class="cricle-title">J’ai fais plus de</p>
-                <p class="circle-pa">50 design</p>
-            </div>
-            <div data-aos="zoom-out" data-aos-delay="300" class="circle">
-                <p class="cricle-title">Je kiffe ça à</p>
-                <p class="circle-p">100 %</p>
-            </div>
-        </div>
+      <div class="apercu">
+        <p data-aos="fade-up" class="apercu-p">
+          Voici un aperçu de ce que j’ai réalisé :
+        </p>
+      </div>
 
-        <div class="apercu">
-            <p data-aos="fade-up" class="apercu-p">Voici un aperçu de ce que j’ai réalisé :</p>
-        </div>
+      <div data-aos="fade-up" class="images">
+        <img src="images/labo.png" />
+        <img src="images/vin.png" />
+        <img src="images/bbetter.png" />
+      </div>
 
-
-        <div data-aos="fade-up" class="images">
-            <img src="images/labo.png">
-            <img src="images/vin.png">
-            <img src="images/bbetter.png">
-        </div>
-
-        <div class="maquette">
-            <p data-aos="fade-right" class="maquette-p">Je fais également des maquettes interactive, des sites internet ainsi que des application, de l’UI et de l’UX mais ça reste encore confidentiel</p>
-            <p data-aos="fade-left" class="maquette-p">Ce que j’aimerais c’est de combiner mes compétences de codage avec mes compétence en design afin de créer des site interactifs</p>
-        </div> 
-
+      <div class="maquette">
+        <p data-aos="fade-right" class="maquette-p">
+          Je fais également des maquettes interactive, des sites internet ainsi
+          que des application, de l’UI et de l’UX mais ça reste encore
+          confidentiel
+        </p>
+        <p data-aos="fade-left" class="maquette-p">
+          Ce que j’aimerais c’est de combiner mes compétences de codage avec mes
+          compétence en design afin de créer des site interactifs
+        </p>
+      </div>
     </main>
 
     <footer>
-        <section class="footer-main">
-            <div class="vladimir-copy">
-                <p class="vladimir">Vladimir Nechaev</p>
-                <p class="copyright">© 2023 Copyright by Vladimir Nechaev. All rights reserved.</p>
-            </div>
+      <section class="footer-main">
+        <div class="vladimir-copy">
+          <p class="vladimir">Vladimir Nechaev</p>
+          <p class="copyright">
+            © 2023 Copyright by Vladimir Nechaev. All rights reserved.
+          </p>
+        </div>
 
-            <section class="footer-rs">
+        <section class="footer-rs">
+          <section class="footer-rsociaux">
+            <a
+              href="https://fr.linkedin.com/in/vladimir-nechaev-73aa3a1a1"
+              class="linkedin"
+              target="_blank"
+            >
+              <img src="images/linkedin.svg" />
+            </a>
+            <a
+              href="https://twitter.com/vladimir_nch"
+              class="twitter"
+              target="_blank"
+            >
+              <img src="images/twitter.svg" />
+            </a>
+            <a
+              href="https://www.instagram.com/vladimir_nchv/"
+              class="instagram"
+              target="_blank"
+            >
+              <img src="images/instagram.svg" />
+            </a>
+          </section>
 
-                <section class="footer-rsociaux">
-                    <a href="https://fr.linkedin.com/in/vladimir-nechaev-73aa3a1a1" class="linkedin" target="_blank">
-                        <img src="images/linkedin.svg">
-                    </a>
-                    <a href="https://twitter.com/vladimir_nch" class="twitter" target="_blank">
-                        <img src="images/twitter.svg">
-                    </a>
-                    <a href="https://www.instagram.com/vladimir_nchv/" class="instagram" target="_blank">
-                        <img src="images/instagram.svg">
-                    </a>
-                </section>  
-
-                <a href="mailto:vladimir.nechaev.pro@gmail.com" class="mail-vlad">vladimir.nechaev.pro@gmail.com</a>
-
-            </section>
-
+          <a href="mailto:vladimir.nechaev.pro@gmail.com" class="mail-vlad"
+            >vladimir.nechaev.pro@gmail.com</a
+          >
         </section>
+      </section>
     </footer>
 
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-
-</body>
+  </body>
 </html>

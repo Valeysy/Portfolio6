@@ -6,7 +6,7 @@
     color: white;
     font-size: 24px;
     font-weight: 500;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: 100px;
 }
 
@@ -18,8 +18,8 @@
 
 .metier-card {
     display: grid;
-    grid-template-columns: repeat(3, 320px);
-    grid-template-rows: repeat(2, 360px);
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(2, 330px);
     grid-column-gap: 70px;
     grid-row-gap: 100px;
 }  
@@ -41,48 +41,36 @@
 }
 
 .metier-a {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #0B0036 118.4%);    
     padding: 5%;
 }
 
 .metier-b {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #2F0036 118.4%);    
     padding: 5%;
 }
 
 .metier-c {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #083600 118.4%);    
     padding: 5%;
 }
 
 .metier-d {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #421C1C 118.4%);    
     padding: 5%;
 }
 
 .metier-e {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #003633 118.4%);    
     padding: 5%;
 }
 
 .metier-f {
-    width: 310px;
-    height: 310px;
     border-radius: 40px;
     background: linear-gradient(170deg, #000 7.37%, #2F3600 118.4%);    
     padding: 5%;
