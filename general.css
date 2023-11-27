@@ -55,14 +55,15 @@ header {
 
 /*les boutons boutons*/
 
-.lien-a {
-  position: absolute;
+nav {
+  position: fixed;
   right: 0;
   margin: 30px;
-  display: inline;
+  display: flex;
+  z-index: 99999999999;
 }
 
-.lien-a a {
+nav a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -75,11 +76,11 @@ header {
   align-items: center;
   border: none;
   border-radius: 100px;
-  background: black;
+  background: rgba(0, 0, 0, 0.155);
   transition: all 0.3s;
 }
 
-.lien-a a:hover {
+nav a:hover {
   box-shadow: inset 0 0 0 1px #ffffff;
 }
 
@@ -89,6 +90,26 @@ header {
 
 .projet-projet {
   box-shadow: inset 0 0 0 1px #ffffff;
+}
+
+nav .lang {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menu-hamburger {
+  display: none;
+  height: 30px;
+  height: 25px;
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  cursor: pointer;
+}
+
+#imageChanger {
+  transition: all 0.9s;
 }
 
 /*carte profile*/
@@ -310,22 +331,6 @@ header {
   100% {
     opacity: 0;
   }
-}
-
-/*langues*/
-
-.gb {
-  position: absolute;
-  bottom: 60px;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-}
-
-.english {
-  margin-left: 5px;
 }
 
 /*Main*/
@@ -1264,19 +1269,66 @@ footer {
 }
 
 @media (max-width: 390px) {
-  .lien-a {
-    position: absolute;
+
+  nav {
+    position: fixed;
     right: 0;
-    margin: 30px;
-    display: inline;
+    margin: 25px;
+    display: flex;
+    z-index: 1000000000;
   }
 
-  .lien-a a {
+  nav a {
     font-size: 12px;
     margin-inline: 13px;
     font-size: 16px;
     padding: 14px 13px;
     margin-left: 0px;
+  }
+
+  .menu-hamburger {
+    display: block;
+    z-index: 10000;
+    position: fixed;
+    top: 48pc
+  }
+
+  .mobile-menu {
+    margin-right: 19%;
+    margin-top: 167%;
+    flex-shrink: 0;
+  }
+
+  nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-right: -70%;
+    margin-top: 200%;
+    transition: all 0.5s;
+    flex-shrink: 0;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    padding-left: 17px;
+    border-radius: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-inline: 20px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 25px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 100px;
+    background: none;
   }
 
   .bg-profil {
@@ -1601,6 +1653,30 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 80%;
+  }
+
+  .bg-b {
+    width: 1%;
+    position: absolute;
+    top: 100pc;
+    z-index: -100;
+  }
+  
+  .bg-c {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 281pc;
+    z-index: -100;
+  }
+  
+  .bg-d {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 160pc;
+    z-index: -100;
+    opacity: 30%;
   }
 }
 
@@ -2246,7 +2322,7 @@ footer {
   width: 70%;
   position: absolute;
   right: 0;
-  top: 281pc;
+  top: 285pc;
   z-index: -100;
 }
 
@@ -2272,5 +2348,6 @@ footer {
   position: absolute;
   top: 150pc;
   z-index: -100;
-  opacity: 60%;
+  opacity: 70%;
 }
+

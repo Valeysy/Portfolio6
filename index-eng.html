@@ -22,11 +22,12 @@
         ></video>
       </div>
       <section class="marginbg">
-        <nav class="lien-a">
-          <a class="lang" href="index.html">🇫🇷 Français</a>
+        <nav>
+          <a class="lang" href="index.html"><img src="images/france.svg"> Français</a>
           <a href="index-eng.html" class="presentation-index">Presentation</a>
           <a href="projet-eng.html" class="projet">Project</a>
         </nav>
+        <img src="images/Menu.svg" id="imageChanger" onclick="changerImage()" class="menu-hamburger">
 
         <section class="cardprofil">
           <div class="bg-profil">
@@ -443,5 +444,33 @@
     <script>
       AOS.init();
     </script>
+
+    <script>
+      const menuHamburger = document.querySelector(".menu-hamburger");
+      const navLinks = document.querySelector("nav");
+
+      menuHamburger.addEventListener('click', (event) => {
+      navLinks.classList.toggle('mobile-menu');
+      event.stopPropagation(); 
+  });
+
+      document.addEventListener('click', (event) => {
+      if (!navLinks.contains(event.target) && !menuHamburger.contains(event.target)) {
+      navLinks.classList.remove('mobile-menu');
+  }
+  });
+  </script>
+
+  <script> 
+    function changerImage() {
+    const imageElement = document.getElementById("imageChanger");
+    if (imageElement.src.endsWith("images/Menu.svg")) {
+        imageElement.src = "images/multiply.svg";
+    } else {
+        imageElement.src = "images/Menu.svg";
+    }
+    }
+    </script>
+
   </body>
 </html>
