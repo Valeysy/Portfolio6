@@ -915,7 +915,6 @@ main {
 
 /* métier */
 
-
 .metier {
   margin-top: 100px;
 }
@@ -956,6 +955,7 @@ main {
   font-size: 20px;
   font-weight: 500;
   margin-left: 10px;
+  transition: all 0.5s;
 }
 
 .metier-a {
@@ -995,7 +995,6 @@ main {
 }
 
 /* Footer */
-
 
 footer {
   margin-top: 7%;
