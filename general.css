@@ -20,6 +20,7 @@ p {
 
 body {
   background-color: #131415;
+  width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -2010,6 +2011,47 @@ footer {
   text-align: center;
 }
 
+.bg-b {
+  width: 70%;
+  position: absolute;
+  top: 100pc;
+  z-index: -100;
+}
+
+.bg-c {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  top: 285pc;
+  z-index: -100;
+}
+
+.bg-d {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  top: 160pc;
+  z-index: -100;
+  opacity: 30%;
+}
+
+.bg-e {
+  width: 100%;
+  position: absolute;
+  top: 70pc;
+  z-index: -100;
+  opacity: 70%;
+}
+
+.bg-f {
+  width: 100%;
+  position: absolute;
+  top: 150pc;
+  z-index: -100;
+  opacity: 80%;
+}
+
+
 /* Media Querie Projet */
 
 @media (max-width: 1366px) {
@@ -2134,6 +2176,7 @@ footer {
 }
 
 @media (max-width: 490px) {
+
   .bg-profil {
     width: 210px;
     height: 450px;
@@ -2303,45 +2346,13 @@ footer {
     align-items: center;
     width: 80%;
   }
-}
 
-.bg-b {
-  width: 70%;
-  position: absolute;
-  top: 100pc;
-  z-index: -100;
+  .bg-e {
+    top: 86pc;
+  }
+  
+  .bg-f {
+    top: 130pc;
+  }
+  
 }
-
-.bg-c {
-  width: 70%;
-  position: absolute;
-  right: 0;
-  top: 285pc;
-  z-index: -100;
-}
-
-.bg-d {
-  width: 70%;
-  position: absolute;
-  right: 0;
-  top: 160pc;
-  z-index: -100;
-  opacity: 30%;
-}
-
-.bg-e {
-  width: 100%;
-  position: absolute;
-  top: 70pc;
-  z-index: -100;
-  opacity: 70%;
-}
-
-.bg-f {
-  width: 100%;
-  position: absolute;
-  top: 150pc;
-  z-index: -100;
-  opacity: 80%;
-}
-
