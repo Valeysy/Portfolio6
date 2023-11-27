@@ -1305,7 +1305,7 @@ footer {
     flex-direction: column-reverse;
     align-items: center;
     margin-right: -70%;
-    margin-top: 200%;
+    margin-top: 220%;
     transition: all 0.5s;
     flex-shrink: 0;
     z-index: 1000;
