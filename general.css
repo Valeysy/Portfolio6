@@ -1270,14 +1270,6 @@ footer {
 
 @media (max-width: 390px) {
 
-  nav {
-    position: fixed;
-    right: 0;
-    margin: 25px;
-    display: flex;
-    z-index: 1000000000;
-  }
-
   nav a {
     font-size: 12px;
     margin-inline: 13px;
@@ -1290,12 +1282,12 @@ footer {
     display: block;
     z-index: 10000;
     position: fixed;
-    top: 48pc
+    top: 43pc
   }
 
   .mobile-menu {
     margin-right: 19%;
-    margin-top: 167%;
+    margin-top: 147%;
     flex-shrink: 0;
   }
 
@@ -1337,6 +1329,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -100px;
   }
 
   .bg-profil:hover {
