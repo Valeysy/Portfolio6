@@ -134,8 +134,7 @@ nav .lang {
 }
 
 .bg-profil:hover {
-  border: 1px solid rgb(196, 196, 196);
-  transform: scale(1.07);
+  transform: scale(1.05);
 }
 
 .pp {
@@ -144,10 +143,6 @@ nav .lang {
   flex-shrink: 0;
   border-radius: 999px;
   transition: all 0.2s;
-}
-
-.pp:active {
-  transform: scale(0.9);
 }
 
 .infoprofil {
@@ -1179,6 +1174,7 @@ footer {
 /* Media querie */
 
 @media (max-width: 1366px) {
+  
   .bg-profil {
     width: 730px;
     height: 270px;
@@ -1408,12 +1404,12 @@ footer {
     display: block;
     z-index: 10000;
     position: fixed;
-    top: 35pc
+    top: 3pc
   }
 
   .mobile-menu {
     margin-right: 19%;
-    margin-top: 147%;
+    margin-top: 8%;
     flex-shrink: 0;
   }
 
@@ -1423,7 +1419,7 @@ footer {
     flex-direction: column-reverse;
     align-items: center;
     margin-right: -70%;
-    margin-top: 220%;
+    margin-top: -40%;
     transition: all 0.5s;
     flex-shrink: 0;
     z-index: 1000;
@@ -1459,7 +1455,7 @@ footer {
   }
 
   .bg-profil:hover {
-    display: none;
+    transform: scale(1);
   }
 
   .line-b-eng {
@@ -2145,10 +2141,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .bg-profil:hover {
-    display: none;
   }
 
   .pp {
