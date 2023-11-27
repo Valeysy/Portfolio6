@@ -1050,6 +1050,132 @@ footer {
   color: white;
 }
 
+/* English */
+
+.reseautelecom-eng {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  color: transparent;
+  font-weight: bold;
+}
+
+.reseautelecom-eng::after {
+  content: "Telecom network";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    -45deg,
+    #b4ffa1,
+    #00ffe0,
+    rgb(251, 143, 255),
+    #ffd970
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cita-main-eng {
+  margin-top: 30px;
+  margin-bottom: 120px;
+  font-size: 100px;
+  font-weight: 600;
+  position: relative;
+}
+
+.cita-main-eng::after {
+  width: 110%;
+  content: "...Because...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    -45deg,
+    #b4ffa1,
+    #00ffe0,
+    rgb(251, 143, 255),
+    #ffd970
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.line-b-eng {
+  position: absolute;
+  left: -60px;
+  top: 231pc;
+}
+
+.design-eng {
+  margin-top: 10%;
+  font-size: 100px;
+  font-weight: 600;
+  position: relative;
+}
+
+.design-eng::after {
+  content: "Design";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    -45deg,
+    #b4ffa1,
+    #00ffe0,
+    rgb(247, 18, 255),
+    #ffd970
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* Media querie */
 
 @media (max-width: 1366px) {
@@ -1282,7 +1408,7 @@ footer {
     display: block;
     z-index: 10000;
     position: fixed;
-    top: 43pc
+    top: 35pc
   }
 
   .mobile-menu {
@@ -1333,6 +1459,10 @@ footer {
   }
 
   .bg-profil:hover {
+    display: none;
+  }
+
+  .line-b-eng {
     display: none;
   }
 
@@ -1538,6 +1668,10 @@ footer {
   }
 
   .cita-main {
+    font-size: 60px;
+  }
+
+  .cita-main-eng {
     font-size: 60px;
   }
 
@@ -2007,6 +2141,7 @@ footer {
   .bg-profil {
     width: 210px;
     height: 450px;
+    border-radius: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2175,132 +2310,6 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 80%;
-  }
-}
-
-/* English */
-
-.reseautelecom-eng {
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  position: relative;
-  color: transparent;
-  font-weight: bold;
-}
-
-.reseautelecom-eng::after {
-  content: "Telecom network";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    -45deg,
-    #b4ffa1,
-    #00ffe0,
-    rgb(251, 143, 255),
-    #ffd970
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.cita-main-eng {
-  margin-top: 30px;
-  margin-bottom: 120px;
-  font-size: 100px;
-  font-weight: 600;
-  position: relative;
-}
-
-.cita-main-eng::after {
-  width: 110%;
-  content: "...Because...";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    -45deg,
-    #b4ffa1,
-    #00ffe0,
-    rgb(251, 143, 255),
-    #ffd970
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: gradient 6s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.line-b-eng {
-  position: absolute;
-  left: -60px;
-  top: 231pc;
-}
-
-.design-eng {
-  margin-top: 10%;
-  font-size: 100px;
-  font-weight: 600;
-  position: relative;
-}
-
-.design-eng::after {
-  content: "Design";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-    -45deg,
-    #b4ffa1,
-    #00ffe0,
-    rgb(247, 18, 255),
-    #ffd970
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: gradient 6s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }
 
