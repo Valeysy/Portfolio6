@@ -47,7 +47,7 @@ header {
   width: 100%;
   min-height: 100vh;
   min-width: 100%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #131415 100%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0) 20%, #131415 92%);
 }
 
 .marginbg {
@@ -166,7 +166,7 @@ nav .lang {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  width: 70%;
+  width: 350px;
   margin-bottom: 1%;
 }
 
@@ -213,11 +213,12 @@ nav .lang {
 
 .rsociaux {
   margin-top: 10%;
-  margin-left: 70%;
+  margin-left: 80%;
   display: flex;
+  align-items: center;
 }
 
-.twitter {
+.github {
   margin-inline: 15px;
   transition: all 0.2s;
 }
@@ -230,7 +231,7 @@ nav .lang {
   transition: all 0.2s;
 }
 
-.twitter:hover {
+.github:hover {
   transform: scale(1.2);
 }
 
@@ -2023,7 +2024,15 @@ footer {
   width: 70%;
   position: absolute;
   right: 0;
-  top: 285pc;
+  top: 281pc;
+  z-index: -100;
+}
+
+.bg-c-eng {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  top: 278pc;
   z-index: -100;
 }
 
