@@ -1,3 +1,5 @@
+/* Bonne chance monsieurs :D */
+
 * {
   text-decoration: none;
   scroll-behavior: smooth;
@@ -19,6 +21,8 @@ p {
 body {
   background-color: #131415;
 }
+
+/*Footer*/
 
 .video {
   position: absolute;
@@ -580,6 +584,8 @@ main {
 
 /* fin card */
 
+/* Réorientation */
+
 .def {
   display: flex;
   flex-direction: column;
@@ -657,6 +663,8 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* Citation */
 
 .citation {
   color: white;
@@ -792,6 +800,8 @@ main {
   margin-top: 80px;
 }
 
+/* souhait */
+
 .souhait {
   margin-top: 100px;
 }
@@ -903,6 +913,9 @@ main {
   font-weight: 600;
 }
 
+/* métier */
+
+
 .metier {
   margin-top: 100px;
 }
@@ -981,6 +994,9 @@ main {
   padding: 5%;
 }
 
+/* Footer */
+
+
 footer {
   margin-top: 7%;
   color: white;
@@ -1013,6 +1029,8 @@ footer {
 .mail-vlad {
   color: white;
 }
+
+/* Media querie */
 
 @media (max-width: 1366px) {
   .bg-profil {
@@ -1571,6 +1589,8 @@ footer {
   }
 }
 
+/******************************************* Projet *******************************************/
+
 .projet-title {
   color: #fff;
   font-size: 38px;
@@ -1649,6 +1669,8 @@ footer {
   }
 }
 
+/* Définition */
+
 .definition {
   margin-top: 10%;
   display: flex;
@@ -1686,6 +1708,8 @@ footer {
   color: white;
   background: linear-gradient(164deg, #160054 10.91%, #ff007a 156.27%);
 }
+
+/* Cercle */
 
 .circles-projet {
   margin-top: 8%;
@@ -1730,6 +1754,8 @@ footer {
   font-weight: 600;
 }
 
+/* Aperçu */
+
 .apercu {
   display: flex;
   justify-content: center;
@@ -1769,6 +1795,8 @@ footer {
   width: 50%;
   text-align: center;
 }
+
+/* Media Querie Projet */
 
 @media (max-width: 1366px) {
   .bg-profil {
@@ -2065,6 +2093,8 @@ footer {
     width: 80%;
   }
 }
+
+/* English */
 
 .reseautelecom-eng {
   font-style: normal;
