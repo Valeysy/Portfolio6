@@ -1390,7 +1390,7 @@ footer {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 490px) {
 
   nav a {
     font-size: 12px;
@@ -2133,7 +2133,7 @@ footer {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 490px) {
   .bg-profil {
     width: 210px;
     height: 450px;
