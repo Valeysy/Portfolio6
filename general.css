@@ -47,7 +47,7 @@ header {
   width: 100%;
   min-height: 100vh;
   min-width: 100%;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0) 20%, #131415 92%);
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0) 0%, #131415 98%);
 }
 
 .marginbg {
