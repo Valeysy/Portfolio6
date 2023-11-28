@@ -1527,14 +1527,7 @@ footer {
     min-width: 100%;
     padding: 0;
     position: relative;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 50%,
-      #131415 100%
-    );
   }
-
-
   
   .bg-profil {
     width: 310px;
