@@ -604,6 +604,7 @@ main {
   margin-top: 80px;
   font-size: 20px;
   margin-left: 22%;
+  gap: 10px;
 }
 
 .reorientation {
@@ -767,9 +768,8 @@ main {
 
 .citation-author {
   font-size: 24px;
-  width: 100%;
-  margin-left: 100%;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .vision {
@@ -1471,8 +1471,11 @@ footer {
   }
 
   .line-b {
-    left: -10pc;
-    top: 206pc;
+    display: none;
+  }
+
+  .line-b-eng {
+    display: none;
   }
 
   .court-terme {
@@ -1531,7 +1534,7 @@ footer {
   
   .bg-profil {
     width: 310px;
-    height: 450px;
+    height: 470px;
     border-radius: 45px;
     display: flex;
     flex-direction: column;
@@ -1550,7 +1553,7 @@ footer {
   .pp {
     width: 200px;
     height: 200px;
-    margin-top: 12%;
+    margin-top: 14%;
   }
 
   .infoprofil {
@@ -1567,7 +1570,6 @@ footer {
   }
 
   .bio {
-    margin-left: 5%;
     font-size: 22px;
     width: 100%;
     text-align: center;
@@ -1609,6 +1611,16 @@ footer {
     top: 100px;
   }
 
+  .citation-p {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+
+  .citation-author {
+    font-size: 20px;
+  }
+
   .descritpion {
     margin-bottom: 20px;
   }
@@ -1631,15 +1643,6 @@ footer {
 
   .def {
     margin-top: 180px;
-  }
-
-  .line-b {
-    left: -25pc;
-    top: 234pc;
-  }
-
-  .citation-author {
-    margin-left: 73%;
   }
 
   .terme-card {
@@ -1686,6 +1689,10 @@ footer {
     grid-row-gap: 70px;
   }
 
+  .honnete {
+    margin-top: 1O%;
+  }
+
   .projet-title {
     color: #fff;
     font-size: 38px;
@@ -1714,10 +1721,25 @@ footer {
     font-size: 22px;
   }
 
+  .design {
+    margin-top: 20%;
+  }
+
+  .cquoi {
+    margin-top: 15%;
+  }
+
   .def-projet {
-    margin-top: 5%;
+    margin-top: 15%;
     width: 60%;
     font-weight: 600;
+  }
+
+  .moyen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+    margin-top: 15%;
   }
 
   .moyen-a {
@@ -1743,17 +1765,31 @@ footer {
   }
 
   .apercu {
-    margin-top: 10%;
+    margin-top: 20%;
+    margin-bottom: 15%;
     display: flex;
     justify-content: center;
   }
 
   .images {
     margin-top: 7%;
+    margin-bottom: 7%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(1, 380px);
-    column-gap: 40px;
+    gap: 60px;
+  }
+
+  .maquette-p {
+    margin-bottom: 30px;
+  }
+
+  .bg-e {
+    top: 85pc;
+  }
+  
+  .bg-f {
+    top: 130pc;
   }
 }
 
@@ -1814,7 +1850,7 @@ footer {
   
   .bg-profil {
     width: 210px;
-    height: 450px;
+    height: 440px;
     border-radius: 45px;
     display: flex;
     flex-direction: column;
@@ -1839,7 +1875,7 @@ footer {
   .infoprofil {
     display: flex;
     flex-direction: column;
-    margin-left: 4%;
+    margin-left: 0%;
   }
 
   .name {
@@ -1849,15 +1885,15 @@ footer {
   }
 
   .bio {
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 20px;
-    width: 90%;
+    width: 80%;
     text-align: center;
   }
 
   .rsociaux {
     margin-top: 15%;
-    margin-left: 7%;
+    margin-left: 0%;
     display: flex;
   }
 
@@ -2042,10 +2078,7 @@ footer {
   }
 
   .citation-author {
-    font-size: 24px;
-    width: 100%;
-    margin-left: 100%;
-    margin-bottom: 20px;
+    font-size: 16px;
   }
 
   .plus-tard {
@@ -2057,12 +2090,13 @@ footer {
 
   .honnete {
     color: black;
+    margin-top: 20%;
     font-size: 20px;
     font-weight: 500;
     background: white;
     border-radius: 30px;
-    padding: 5%;
-    padding-inline: 10%;
+    padding: 10%;
+    padding-inline: 20%;
   }
 
   .blabla {
@@ -2170,40 +2204,39 @@ footer {
     color: #fff;
     font-size: 38px;
     font-weight: 500;
-    margin-left: 37%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 5%;
   }
 
   .text-projet {
     display: flex;
     flex-direction: column;
-    color: white;
-    justify-content: center;
-    font-weight: 600;
-    width: 70%;
+    align-items: center;
     text-align: center;
-    margin-left: 55px;
+  }
+
+  .jevoudrais {
+    width: 40%;
+    text-align: center;
   }
 
   .text-projet-b {
-    display: flex;
-    flex-direction: column;
-    margin-top: 80px;
-    margin-left: 7px;
-    font-size: 28px;
+    width: 100%;
   }
 
   .design {
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 7%;
     font-size: 70px;
     font-weight: 600;
     position: relative;
   }
 
   .def-projet {
-    margin-bottom: 20%;
-    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-top: 7%;
     width: 60%;
     font-weight: 600;
   }
@@ -2228,7 +2261,7 @@ footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(1, 300px);
-    gap: 50px;
+    gap: 100px;
   }
 
   .apercu-p {
@@ -2293,11 +2326,11 @@ footer {
   }
 
   .bg-e {
-    top: 86pc;
+    top: 90pc;
   }
   
   .bg-f {
-    top: 130pc;
+    top: 140pc;
   }
   
   .copyright {
