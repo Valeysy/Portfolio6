@@ -29,20 +29,26 @@ body {
 
 /*Footer*/
 
-.video {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: -100;
-}
-
 .video-p {
   position: absolute;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   z-index: -100;
+  background-image: url(images/feu.mp4);
+  background-repeat: no-repeat;
+  background-size: 190vh;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -100;
+  background-image: url(images//Mon\ film.mp4);
+  background-repeat: no-repeat;
+  background-size: 190vh;
 }
 
 .video-bg {
