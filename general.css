@@ -1399,6 +1399,16 @@ footer {
   text-align: center;
 }
 
+.maquette-pv {
+  margin-top: 7%;
+  margin-bottom: 3%;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+}
+
 .bg-b {
   width: 70%;
   position: absolute;
