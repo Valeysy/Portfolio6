@@ -1444,9 +1444,12 @@ footer {
   position: absolute;
   top: 150pc;
   z-index: -100;
-  opacity: 80%;
+  opacity: 60%;
 }
 
+iframe {
+  margin-top: 100px;
+}
 
 /* Media Querie */
 
